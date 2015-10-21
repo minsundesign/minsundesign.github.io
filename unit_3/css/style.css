@@ -1,5 +1,32 @@
 body {
-	font-family: helvetica, san-serif;
+	text-align: center;
+	background: url("images/designstudio.jpg");
+	background-size: cover;
+	font-family: Helvetica;
 	font-size: 12px;
-	
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: helvetica;
+	font-size: 64px;
+}
+
+hr {
+	width: 200px;
+}
+
+p {
+	font-size: 14px;
+}
+
+#slogan {
+	font-size: 34px;
+}
+
+a {
+	font-size: 20px;
+	font-weight: bold;
 }
