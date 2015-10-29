@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background: url("..images/designstudio.jpg");
+  background-image: cover;
+  color: #000;
+  font-family: helvetica;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+#slogan {
+	font-size: 30px;
+}
+
+.important {
+	text-align: center;
+
+}
+
+div {
+	text-align: center;
+	font-size: 16px;
+}
+
+a {
+	color: #22445D
+}
