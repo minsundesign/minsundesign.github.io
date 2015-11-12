@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+
+body {
+  text-align: center;
+  color: #000;
+  font-family: 'PT Serif', serif;
+}
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside{
+	background-color: #FFC675;
+	text-align: left;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div{
+	background: #c0dec5;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+img{
+	width: 300px;
+	padding: 20px;
+
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
