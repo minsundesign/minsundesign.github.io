@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Serif);
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   background-image: cover;
   color: #000;
@@ -17,16 +21,23 @@ p{
 h1 {
   font-size: 100px;
   text-align: center;
-  padding-bottom: 150px;
-  padding-top: 150px;
-  font-weight: bold;
-  background: url("../images/homedesignstudio.jpg");
+  
+  font-weight: bold; 
   color: #ff7900;
+}
+
+header {
+  background: url("../images/homedesignstudio.jpg") no-repeat center center scroll;
+  background-size: cover;
+  padding-bottom: 250px;
+  padding-top: 250px;
+
 }
 
 nav {
   background-color: #aaaaaa;
   font-family: Arial, sans-serif;
+  float: right;
 }
 
 a {
@@ -34,20 +45,21 @@ a {
   color: white;
   text-decoration: none;
   display: block;
-  float: right;
+  float: left;
   padding: 20px;
 }
 
 .important {
   text-align: center;
   padding-bottom: 150px;
-  margin: 0 auto;
-  width: 750px;
+  background-color: #ff7900;
   
 }
 
-.impatant p{
-    background-color: #ff7900;
+.important p {
+  margin: 0 auto;
+   width: 780px;
+
 }
 
 #slogan {
@@ -55,15 +67,14 @@ a {
   font-size: 70px;
   padding-top: 100px;
   padding-bottom: 30px;
-  background-color: #ff7900;
   color: #fff;
 
 }
 
 .column {
   float: left;
-  width: 260px;
-  height: 300px;
+  width: 300px;
+  height: 330px;
   padding: 20px;
   margin: 0;
 }
@@ -87,6 +98,12 @@ a {
   clear: both;
   height: 0;
   font-size: 0;
+}
+
+#wrap {
+  background-color: yellow;
+  width: 900px;
+  margin: auto;
 }
 
 
