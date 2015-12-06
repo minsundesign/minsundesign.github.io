@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: cover;
+  color: #fff;
+  font-family: 'Arvo', serif;
+  background-color: #AC2437;
+}
+
+p{
+  font-family: 'PT Serif', serif;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-width: 800px;
+}
+
+h2{
+	font-size: 18px;
+	font-family: 'Arvo', serif;
+	padding-bottom: 30px;
+
+}
+
+.header {
+  font-size: 150px;
+  text-align: center;
+  font-weight: bold; 
+  color: #AC2437;
+  background: url("../images/header4.jpg") no-repeat center center scroll;
+  background-size: cover;
+  padding: 150px 15%;
+
+}
+
+nav {
+  background-color: #AC2437;
+  font-family: 'PT Serif', serif;
+  float: right;
+}
+
+a {
+  background-color: #AC2437;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Arvo', serif;
+  display: block;
+  float: left;
+  padding: 20px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.important {
+  text-align: center;
+  padding-bottom: 75px;
+  background-color: #AC2437;
+  font-color: #fff;
+  
+}
+
+.important p {
+  margin: 0 auto;
+  width: 780px;
+
+}
+
+#slogan {
+  text-align: center;
+  line-height: 1.3em;
+  font-size: 50px;
+  font-color: #fff;
+  font-family: 'Arvo', serif;
+  padding-top: 75px;
+  background-color: #AC2437;
+
+}
+
+.column {
+  float: left;
+  width: 31.33%;
+  height: 300px;
+  padding: 20px;
+  margin: 1%;
+}
+
+#column1 {
+  background-color: #AC2437;
+ 
+}
+
+#column2 {
+  background-color: #AC2437;
+
+}
+
+#column3 {
+  background-color: #AC2437;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+#wrap {
+  background-color: #fff;
+  width: 75%;
+  margin: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+.column {
+  height: 600px;
+}
+
+#wrap {
+  width: 85%;
+}
